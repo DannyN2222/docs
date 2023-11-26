@@ -120,24 +120,23 @@ Finished! You have replaced the USB flash device and the registration key. You w
 
 ### Manual method
 
-Prepare a new flash device using the procedure documented in the [Manual Install Method](../getting-started/manual-install-method.md) guide.
-
-1. Before removing the flash from the PC, copy the `boot/config` folder from the backup you made, into the flash drive, overwriting existing files.
-2. Shut down the server. Remove the original USB flash device and replace it with the new one. Power on the server.
-3. Once booted the array will not start and you will see the message:
+1. Prepare a new flash device using the procedure documented in the [Manual Install Method](../getting-started/manual-install-method.md) guide.
+2. Before removing the flash from the PC, copy the `boot/config` folder from the backup you made, into the flash drive, overwriting existing files.
+3. Shut down the server. Remove the original USB flash device and replace it with the new one. Power on the server.
+4. Once booted the array will not start and you will see the message:
 
     > `Invalid, missing or expired registration Key`
 
-4. Select **Registration Key**.
+5. Select **Registration Key**.
 ![Invalid Key Example](../assets/Invalidkey.png)
-5. In ***Tools > Registration***, select **REPLACE KEY** then enter the email address to which you would like to have the new key delivered to.
-6. Select **REPLACE KEY**.
+6. In ***Tools > Registration***, select **REPLACE KEY** then enter the email address to which you would like to have the new key delivered to.
+7. Select **REPLACE KEY**.
 ![Replace Key Example](../assets/Replacekey.png)
-7. Once you have received the email, copy the key file URL, then paste it into the box and click 'INSTALL KEY'
+8. Once you have received the email, copy the key file URL, then paste it into the box and click 'INSTALL KEY'
 
 Finished! You have replaced the USB flash device and the registration key. You will see a screen showing the date this key was registered and the next date on which your registration key will be eligible to be replaced again.
 
-8. Select **DONE**.
+9. Select **DONE**.
 
 ## Notes about replacing your registration key
 
